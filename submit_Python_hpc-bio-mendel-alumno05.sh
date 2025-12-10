@@ -2,8 +2,8 @@
 #SBATCH -J lab-python-job
 #SBATCH -p hpc-bio-mendel
 #SBATCH --chdir=/home/alumno05/lab-python
-#SBATCH -n 4
-#SBATCH --cpus-per-task=2
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
 
 module load anaconda/2025.06
 
